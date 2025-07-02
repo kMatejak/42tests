@@ -6,21 +6,22 @@ int	main(void)
 	int 	i;
 	int*	nbr;
 
-	i = 33;
-	printf("ex00\n");
-	printf("Before: %d\n", i); 
+	i = 21;
+	printf("c01 ex00\n");
+	printf("Before: %d\n", i);
+
 	nbr = &i;
 	ft_ft(nbr);
+
 	printf("After: %d\n", i);
 	if (i == 42)
 	{
-		printf("-------- OK\n");
+		printf("------------ OK\n");
 	}
 	else
 	{
-		printf("-------- KO :(\n");
+		printf("------------ KO :(\n");
 	}
 	printf("\n");
-
 	return (1);
 }
