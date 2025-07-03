@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include "../../c01/ex00/ft_ft.c"
+#define RED		"\033[31m"
+#define GREEN	"\033[32m"
+#define RESET	"\033[0m"
 
 int	main(void)
 {
@@ -7,21 +10,20 @@ int	main(void)
 	int*	nbr;
 
 	i = 21;
+	nbr = &i;
+
 	printf("c01 ex00\n");
 	printf("Before: %d\n", i);
-
-	nbr = &i;
+	
 	ft_ft(nbr);
 
-	printf("After: %d\n", i);
 	if (i == 42)
 	{
-		printf("------------ OK\n");
+		printf(GREEN "After: %d\n------------ OK" RESET "\n\n", i);
 	}
 	else
 	{
-		printf("------------ KO :(\n");
+		printf(RED "After: %d\n------------ KO :(" RESET "\n\n", i);
 	}
-	printf("\n");
 	return (1);
 }
