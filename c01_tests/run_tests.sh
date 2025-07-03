@@ -1,2 +1,2 @@
 #!/bin/sh
-find ./compiled/ -type f -name "test_*" -exec {} \; 
+find ./compiled/ -type f -name "test_ex*" -exec {} \; 
