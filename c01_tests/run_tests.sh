@@ -1,3 +1,2 @@
 #!/bin/sh
-./compiled/test_ex00 &
-./compiled/test_ex01 &
+find ./compiled/ -type f -name "test_*" -exec {} \; 
