@@ -29,13 +29,14 @@ int	main(void)
 	if (d == 8 & m == 2)
         {
                 printf(GREEN "After:       d=%d, m=%d\n", d, m);
-                printf("------------ OK" RESET "\n\n");
+                printf("------------ OK" RESET "\n");
         }
         else
         {
                 printf(RED "After:       d=%d, m=%d\n", d, m);
-                printf("------------ KO :(" RESET "\n\n");
+                printf("------------ KO :(" RESET "\n");
         }
+	printf("\n\n");
         return (1);
 }
 

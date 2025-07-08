@@ -24,13 +24,14 @@ int	main(void)
 	if (a == 42 & b == 24)
         {
                 printf(GREEN "After: args %d, %d\n", a, b);
-                printf("------------ OK" RESET "\n\n");
+                printf("------------ OK" RESET "\n");
         }
         else
         {
                 printf(RED "After: args %d, %d\n", a, b);
-                printf("------------ KO :( args must be swapped" RESET "\n\n");
+                printf("------------ KO :( args must be swapped" RESET "\n");
         }
+	printf("\n\n");
         return (1);
 }
 

@@ -24,13 +24,14 @@ int	main(void)
 	if (a == 8 & b == 2)
         {
                 printf(GREEN "After:       a=%d, b=%d\n", a, b);
-                printf("------------ OK" RESET "\n\n");
+                printf("------------ OK" RESET "\n");
         }
         else
         {
                 printf(RED "After:       a=%d, b=%d\n", a, b);
-                printf("------------ KO :(" RESET "\n\n");
+                printf("------------ KO :(" RESET "\n");
         }
+	printf("\n\n");
         return (1);
 }
 

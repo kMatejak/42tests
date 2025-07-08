@@ -31,6 +31,7 @@ int	main(void)
 	write(1, "Given:    ", 10);
 	ft_putstr(str);
 	printf("\n\n");
+	printf("\n\n");
 
     	return (1);
 }

@@ -19,11 +19,12 @@ int	main(void)
 
 	if (i == 42)
 	{
-		printf(GREEN "After: %d\n------------ OK" RESET "\n\n", i);
+		printf(GREEN "After: %d\n------------ OK" RESET "\n", i);
 	}
 	else
 	{
-		printf(RED "After: %d\n------------ KO :(" RESET "\n\n", i);
+		printf(RED "After: %d\n------------ KO :(" RESET "\n", i);
 	}
+	printf("\n\n");
 	return (1);
 }

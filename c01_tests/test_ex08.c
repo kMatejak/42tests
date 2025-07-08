@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../../c01/ex07/ft_rev_int_tab.c"
+#include "../../c01/ex08/ft_sort_int_tab.c"
 #define RED	"\033[31m"
 #define GREEN	"\033[32m"
 #define RESET	"\033[0m"
@@ -10,12 +10,12 @@ int	main(void)
 	int	size;
 	int	i;
 
-        int arr[7] = {5, 6, 2, 8, 1, 9, 2};
+        int arr[9] = { 5, 6, 2, 8, 1, 9, 4, 3, 7 };
 	
-	size = 7;
+	size = 9;
 	tab = &arr[0];
 
-        printf("c01 ex07\n");
+        printf("c01 ex08\n");
         printf("Given array of digits:\n\t\t\t");
 	i = 0;
 	while (i < size)
@@ -24,11 +24,11 @@ int	main(void)
 		i++;
 	}
 	printf("\n");		
-	printf("with total length: 7\n");
+	printf("with total length: 9\n");
 
-	ft_rev_int_tab(tab, size);
+	ft_sort_int_tab(tab, size);
 
-	printf("It should be reverse order. Is there?\n\t\t\t");
+	printf("It should be ascending order. Is there?\n\t\t\t");
 	i = 0;
 	while (i < size)
 	{

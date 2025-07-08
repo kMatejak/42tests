@@ -20,13 +20,14 @@ int	main(void)
 	if (len == 36)
         {
                 printf(GREEN "Counted with a length: %d\n", len);
-                printf("------------ OK" RESET "\n\n");
+                printf("------------ OK" RESET "\n");
         }
         else
         {
                 printf(RED "Counted with a length: %d\n", len);
-                printf("------------ KO :(" RESET "\n\n");
+                printf("------------ KO :(" RESET "\n");
         }
+	printf("\n\n");
         return (1);
 }
 
