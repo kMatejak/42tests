@@ -26,7 +26,7 @@ int	main(void)
 	printf("Source string 2:                %s\n\n", src_2);
 	printf("Copied string 1 with ft_strcpy: %s\n", dest);
 	printf("Copied string 2 with strcpy:    %s\n", dest_strcpy);
-	printf("\n\n\n");
+	printf("\n\n\n\n");
 	return (1);
 }
 
